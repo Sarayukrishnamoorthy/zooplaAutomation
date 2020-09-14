@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="29629" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:06:06Z">
+    <groups>
+    </groups>
+    <test name="zooplaTest2" duration-ms="19374" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:05:56Z">
+      <class name="com.zoopla.tests.ZooplaTest">
+        <test-method status="PASS" signature="initDependencies()[pri:0, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="initDependencies" is-config="true" duration-ms="34" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDependencies -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="openBrowser" duration-ms="8000" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateHomePage()[pri:2, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="validateHomePage" duration-ms="510" started-at="2020-09-08T07:05:45Z" finished-at="2020-09-08T07:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="enterSearchText(java.lang.String)[pri:3, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="enterSearchText" duration-ms="4161" started-at="2020-09-08T07:05:45Z" finished-at="2020-09-08T07:05:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[South London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method status="PASS" signature="sortPrice(java.lang.String)[pri:4, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="sortPrice" duration-ms="1392" started-at="2020-09-08T07:05:50Z" finished-at="2020-09-08T07:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lowest_price]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPrice -->
+        <test-method status="PASS" signature="selectNthSearchRes(java.lang.String)[pri:5, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="selectNthSearchRes" duration-ms="2617" started-at="2020-09-08T07:05:51Z" finished-at="2020-09-08T07:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNthSearchRes -->
+        <test-method status="PASS" signature="clickOnAgentName()[pri:6, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="clickOnAgentName" duration-ms="2206" started-at="2020-09-08T07:05:54Z" finished-at="2020-09-08T07:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAgentName -->
+        <test-method status="PASS" signature="verifyNameInAgentPage()[pri:7, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="verifyNameInAgentPage" duration-ms="451" started-at="2020-09-08T07:05:56Z" finished-at="2020-09-08T07:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNameInAgentPage -->
+        <test-method status="PASS" signature="closeDependencies()[pri:0, instance:com.zoopla.tests.ZooplaTest@52e6fdee]" name="closeDependencies" is-config="true" duration-ms="1138" started-at="2020-09-08T07:06:07Z" finished-at="2020-09-08T07:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDependencies -->
+      </class> <!-- com.zoopla.tests.ZooplaTest -->
+    </test> <!-- zooplaTest2 -->
+    <test name="zooplaTest1" duration-ms="29629" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:06:06Z">
+      <class name="com.zoopla.tests.ZooplaTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:1, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="openBrowser" duration-ms="12083" started-at="2020-09-08T07:05:37Z" finished-at="2020-09-08T07:05:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateHomePage()[pri:2, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="validateHomePage" duration-ms="757" started-at="2020-09-08T07:05:49Z" finished-at="2020-09-08T07:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="enterSearchText(java.lang.String)[pri:3, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="enterSearchText" duration-ms="6009" started-at="2020-09-08T07:05:50Z" finished-at="2020-09-08T07:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method status="PASS" signature="sortPrice(java.lang.String)[pri:4, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="sortPrice" duration-ms="2609" started-at="2020-09-08T07:05:56Z" finished-at="2020-09-08T07:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[highest_price]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortPrice -->
+        <test-method status="PASS" signature="selectNthSearchRes(java.lang.String)[pri:5, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="selectNthSearchRes" duration-ms="3244" started-at="2020-09-08T07:05:58Z" finished-at="2020-09-08T07:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNthSearchRes -->
+        <test-method status="PASS" signature="clickOnAgentName()[pri:6, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="clickOnAgentName" duration-ms="4801" started-at="2020-09-08T07:06:02Z" finished-at="2020-09-08T07:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAgentName -->
+        <test-method status="PASS" signature="verifyNameInAgentPage()[pri:7, instance:com.zoopla.tests.ZooplaTest@16ec5519]" name="verifyNameInAgentPage" duration-ms="91" started-at="2020-09-08T07:06:06Z" finished-at="2020-09-08T07:06:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNameInAgentPage -->
+      </class> <!-- com.zoopla.tests.ZooplaTest -->
+    </test> <!-- zooplaTest1 -->
+  </suite> <!-- Regression -->
+</testng-results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Regression]" parallel="tests">
+  <listeners>
+    <listener class-name="com.zoopla.reports.TestListener"/>
+  </listeners>
+  <test thread-count="2" name="zooplaTest2(failed)" parallel="tests">
+    <parameter name="propertyN" value="3"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="sortBy" value="lowest_price"/>
+    <parameter name="sCity" value="South London"/>
+    <classes>
+      <class name="com.zoopla.tests.ZooplaTest">
+        <methods>
+          <include name="closeDependencies"/>
+          <include name="verifyNameInAgentPage"/>
+          <include name="initDependencies"/>
+        </methods>
+      </class> <!-- com.zoopla.tests.ZooplaTest -->
+    </classes>
+  </test> <!-- zooplaTest2(failed) -->
+  <test thread-count="2" name="zooplaTest1(failed)" parallel="tests">
+    <parameter name="propertyN" value="5"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="sortBy" value="highest_price"/>
+    <parameter name="sCity" value="London"/>
+    <classes>
+      <class name="com.zoopla.tests.ZooplaTest">
+        <methods>
+          <include name="enterSearchText" invocation-numbers="0"/>
+          <include name="closeDependencies"/>
+          <include name="sortPrice" invocation-numbers="0"/>
+          <include name="verifyNameInAgentPage"/>
+          <include name="initDependencies"/>
+          <include name="clickOnAgentName"/>
+        </methods>
+      </class> <!-- com.zoopla.tests.ZooplaTest -->
+    </classes>
+  </test> <!-- zooplaTest1(failed) -->
+</suite> <!-- Failed suite [Regression] -->

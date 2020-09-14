@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.zoopla.tests.AgentPage">
+        <methods>
+          <include name="closeDependencies"/>
+          <include name="clickOnAgentName"/>
+          <include name="verifyNameInAgentPage"/>
+          <include name="initDependencies"/>
+          <include name="getPageObjects"/>
+        </methods>
+      </class> <!-- com.zoopla.tests.AgentPage -->
+      <class name="com.zoopla.tests.SearchPage">
+        <methods>
+          <include name="closeDependencies"/>
+          <include name="getPageObjects"/>
+          <include name="sortPrice"/>
+          <include name="selectNthSearchRes"/>
+          <include name="initDependencies"/>
+        </methods>
+      </class> <!-- com.zoopla.tests.SearchPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

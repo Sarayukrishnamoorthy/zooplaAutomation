@@ -1,0 +1,79 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 41.628 s <<< FAILURE! - in TestSuite
+openBrowser(com.zoopla.tests.ZooplaTest)  Time elapsed: 31.68 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'NARESH-HP', ip: '10.0.0.188', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: ChromeDriver
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:20738/status] to be available after 20002 ms
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+Caused by: java.util.concurrent.TimeoutException
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+
+validateHomePage(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.validateHomePage(ZooplaTest.java:36)
+
+enterSearchText(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.enterSearchText(ZooplaTest.java:43)
+
+sortPrice(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.sortPrice(ZooplaTest.java:50)
+
+selectNthSearchRes(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.selectNthSearchRes(ZooplaTest.java:59)
+
+clickOnAgentName(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.clickOnAgentName(ZooplaTest.java:64)
+
+verifyNameInAgentPage(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.verifyNameInAgentPage(ZooplaTest.java:70)
+
+openBrowser(com.zoopla.tests.ZooplaTest)  Time elapsed: 5.031 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20804
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:09:30'
+System info: host: 'NARESH-HP', ip: '10.0.0.188', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_241'
+Driver info: driver.version: FirefoxDriver
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20804
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.zoopla.tests.ZooplaTest.openBrowser(ZooplaTest.java:24)
+
+validateHomePage(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.validateHomePage(ZooplaTest.java:36)
+
+enterSearchText(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.enterSearchText(ZooplaTest.java:43)
+
+sortPrice(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.sortPrice(ZooplaTest.java:50)
+
+selectNthSearchRes(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.selectNthSearchRes(ZooplaTest.java:59)
+
+clickOnAgentName(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.clickOnAgentName(ZooplaTest.java:64)
+
+verifyNameInAgentPage(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.zoopla.tests.ZooplaTest.verifyNameInAgentPage(ZooplaTest.java:70)
+
+closeDependencies(com.zoopla.tests.ZooplaTest)  Time elapsed: 0.061 s  <<< FAILURE!
+java.lang.NullPointerException
+
